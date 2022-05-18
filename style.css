@@ -1,0 +1,228 @@
+/*Etiquetas*/
+strong{
+    font-family: 'Roboto Mono', monospace;
+}
+
+
+header{
+    background-color: #2F7EC8;
+    padding: 15px;
+    text-align: left;
+    border-bottom: solid 5px #61A1DD;
+    display: block;
+    text-align:center;
+    position: fixed;
+    top: 0%;
+    z-index: 999;
+}
+
+::marker{ /*esto es para remarcar el numero de las 1.primero, 2.segundo, 3.tercero */
+    font-weight: bolder;
+}
+
+
+#aportar{
+    background-color: rgb(27, 27, 27);
+    padding: 10px;
+    text-align: center;
+    position: sticky;
+    top: 100px;
+}
+
+
+svg{
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+p{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/*ID*/
+
+
+#flechaDerecha{
+    width: 40px;
+    opacity: 0.8;
+}
+
+#logo{
+    margin-left: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.aportar{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+a:hover{
+    color: rgb(126, 170, 228) !important;
+}
+
+a:active{
+    color: rgb(126, 170, 228) !important;
+}
+
+/*Clases*/
+
+.nota{
+    color: rgba(172, 255, 47, 0.479);
+}
+
+.aportarCont{
+    display: flex;
+    margin-top: 1em;
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 1em;
+    padding-left: 1em;
+}
+
+
+.codigo{
+    border-radius: 15px;
+    padding: 15px;
+    margin: 30px;
+    background-color: rgb(27, 27, 27);
+    color: white;
+}
+
+.titulo{
+    margin-top: 5px;
+    border-top: #7c7c7c solid 3px;
+    border-bottom: #7c7c7c solid 3px;
+    color: black;
+    top: 0;
+    position: sticky;
+    margin-bottom: 7px;
+    background: white;
+    text-align: center;
+}
+
+
+header .contenedor{
+     display: inline;
+ }
+
+
+header #matecito{
+    float: right;
+    margin-right: 15px;
+    margin-top: 5px;
+}
+
+.contenedor{
+    margin-right: 0px;
+}
+
+#panel{
+    padding: 15px; background-color: #2F7EC8; bottom: 0px;
+      position: fixed; text-align: center; border-top: 5px solid #61A1DD;
+}
+
+
+
+/*Acordeon Estilos <3*/
+.pregunta{
+    text-align: center;
+    margin-top: 80px;
+    user-select: none;
+}
+h5{
+    padding: 5px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.acordeon{
+    margin-top: 10px auto;
+    margin-bottom: 60px;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.acordeon .contenido-opciones{
+    box-shadow: 0px 0px 2px 1px white;
+    
+}
+
+/*Estilos para opciones*/
+.acordeon .contenido-opciones .opcion{
+    display: flex;
+    margin-top: 5px;
+    border-radius: 5px;
+    top: 0;
+    background:  rgb(110, 151, 204);
+    color: white;
+    cursor: pointer;
+    user-select: none;
+    justify-content:space-between;
+    transition: background 0.2s;
+}
+.acordeon .contenido-opciones .opcion:hover{
+    background:  rgb(100, 140, 192);
+}
+
+
+h5{
+    padding: 10px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 18px;
+}
+
+.flecha{
+    margin: 10px;
+    color: #ffffff;
+    font-size: 18px;
+    transition: .5s;
+}
+
+
+/*Efecto para aparecer y desaparecer enlaces*/
+.acordeon .contenido-opciones .enlaces{
+    height: 0;
+    overflow: hidden;
+}
+
+.acordeon .contenido-opciones .animation{
+    height: 100%;
+}
+
+.rotate{ /*Efecto para rotar flechas */
+    transform: rotate(180deg);
+}
+
+/*Estilos para los enlaces*/
+.acordeon .contenido-opciones .enlaces{
+    border-left: #e8dcca 2px solid;
+    border-right:#e8dcca 2px solid ;
+    border-bottom: #e8dcca 2px solid;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-end-end-radius: 15px;
+    border-end-start-radius:15px ;
+}
+
+.acordeon .contenido-opciones .enlaces a{
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 15px;
+    color: rgba(0,0,0,0.8);
+    background-color: rgb(255, 255, 255);
+}
+
+
+.acordeon .contenido-opciones .enlaces a:hover{
+    color: rgb(126, 170, 228) !important;
+}
