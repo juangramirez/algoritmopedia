@@ -20,7 +20,7 @@
   </header>
     <section style="text-align: center; margin-top: 80px;">
       <h5 class="container-fluid">
-        Par o impar
+        Función parte decimal
         <h6>Fuente: Juan G. Ramírez</h6>
         <h6>Verificado por: <a href="">Ejemplo</a></h6>
         <img src="mateformulario.png" alt="" width="60px">
@@ -28,7 +28,7 @@
     </section>
     <hr>
     <p>
-      Para saber si un número es par (0,2,4,6, etc.) se puede dividir y en caso que el resto sea 0 entero, significa que es un número par.
+      Para saber si un número es decimal, podemos dividirlo y ver si tiene resto superior a 0.
     </p>
     <ul>
       <li><h6>Solución en Python</h6></li>
@@ -38,13 +38,13 @@
 <small class="nota">#Se pide el número como tipo de dato decimal/flotante</small>
 num = float(input("Ingrese un número:  "))
 
-<small class="nota">#Si numero modulo 2 es igual a 0 entonces...</small>
-if num % 2 == 0:
-<small class="nota">#Imprimir el siguiente texto</small>
-  print(f"El número {num} es par")
-<small class="nota">#Si no...</small>
+<small class="nota">#Si la variable num modulo por 1 es igual a 0 entonces es entero</small>
+if num % 1 == 0:
+  print(f"Su número es entero {num}")
+
+<small class="nota">#Si no, es decimal</small>
 else:
-  print(f"El número {num} es impar")
+  print(f"Su numero es decimal {num}")
   </pre>
   </div>
   <ul>
@@ -57,6 +57,10 @@ else:
   <div style="text-align: center;">
     <img src="matecodigo.png" alt="" width="60px"><br>
     <button type="button" style="margin: 10px;" class="btn btn-primary">Video relacionado</button>
+    </a>
+  </div>
+  <div style="text-align: center;">
+    <button type="button" style="margin: 10px;" class="btn btn-danger">Corregir este aporte</button>
     </a>
   </div>
   <div style="padding: 30px;">
